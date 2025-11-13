@@ -1,0 +1,21 @@
+title: "我的 Notebook 文档"
+theme: minimal-mistakes-jekyll
+
+# 启用文档布局
+plugins:
+  - jekyll-include-cache
+
+# Sidebar 菜单
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      sidebar:
+        nav: "docs"
