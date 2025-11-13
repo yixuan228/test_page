@@ -1,5 +1,5 @@
 title: "我的 Notebook 文档"
-theme: minimal-mistakes-jekyll
+theme: jekyll-theme-slate
 
 # 启用文档布局
 plugins:
