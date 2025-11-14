@@ -5,8 +5,8 @@ docs:
   - title: Notebook 文档
     children:
       - title: Notebook 1
-        url: /docs/notebook1/
+        url: /docs/notebook1
       - title: Notebook 2
-        url: /docs/notebook2/
+        url: /docs/notebook2
       - title: Notebook 3
-        url: /docs/notebook3/
+        url: /docs/notebook3
