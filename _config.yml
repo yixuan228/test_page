@@ -1,9 +1,10 @@
-title: "我的 Notebook 文档"
+title: "My Project Documentation"
+description: "Documentation for my Jupyter Notebooks"
 theme: jekyll-theme-cayman
 
 # 启用文档布局
-plugins:
-  - jekyll-include-cache
+# plugins:
+#   - jekyll-include-cache
 
 # Sidebar 菜单
 collections:

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My GitHub Pages Site</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/minimal-mistakes-jekyll@latest/dist/styles.min.css">
+  <style>
+    /* 自定义一些样式，确保侧边栏显示在页面的左侧 */
+    body {
+      display: flex;
+    }
+    .main-content {
+      flex: 1;
+      padding: 20px;
+    }
+    .sidebar {
+      width: 250px;
+      padding: 20px;
+      background-color: #f4f4f4;
+      border-right: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    {% include sidebar.md %}
+  </div>
+
+  <div class="main-content">
+    <h1>Welcome to My Documentation</h1>
+    <p>This is the content of my homepage.</p>
+  </div>
+
+</body>
+</html>
